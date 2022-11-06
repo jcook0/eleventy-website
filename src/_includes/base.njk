@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ title }}</title>
+    <style>
+        body {
+            text-align: center;
+        }
+        div.container {
+            width: 400px;
+            margin: 0 auto;
+        }
+        a {
+            margin: 20px;
+            span: 20px;
+            font-size: large;
+        }
+
+
+    </style>
+</head>
+<body>
+    {{ content | safe }}
+</body>
+</html>
